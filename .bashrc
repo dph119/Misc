@@ -1,5 +1,5 @@
 # format shell prompt
-export PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\h: \[\e[0;34m\]\w\[\e[0m\]\n\$ '
+export PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\h [\@]: \[\e[0;93m\]\w\[\e[0m\]\n\$ '
 
 # get rid of the stupid terminal freezing when you accidentally hit CTRL+S
 stty -ixon 
